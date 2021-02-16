@@ -20,7 +20,6 @@ class Home extends Component {
     render(){
         return (
             <div>
-                {/* <h1>status: {this.props.LoggegIn}</h1> */}
                 <Login HandleSuccess = {this.HandleSuccess}/>
             </div>
         )
