@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Home from './Home';
+import Home from './Components/Home';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import CalculatePrice from './CalculatePrice'
-import Dialog from './Components/auth/Dialog'
+import CalculatePrice from './Components/CalculatePrice'
+import Dialog from './Components/Dialog'
 
 
 class App extends Component {
